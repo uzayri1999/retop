@@ -1,0 +1,126 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div_1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 800px;
+    height: 1008;
+    border-radius: 20px;
+    border: solid 3px lightcoral;
+}
+
+.zag {
+    display: flex;
+    height: 50px;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    color: blueviolet;
+    font-family: Calibri, sans-serif;
+}
+
+.div_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 800px;
+    height: 700px;
+    border-top: 2px solid lightblue;
+}
+
+.btn {
+    position: relative;
+    width: 80px;
+    height: 30px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    color: #e7e7e7;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 5px 2px red;
+}
+
+.btn_1 {
+    position: absolute;
+    top: 335px;
+    left: 305px;
+}
+
+.btn_2 {
+    position: absolute;
+    top: 335px;
+    left: 415px;
+    z-index: 1111;
+}
+
+.div_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 800px;
+    height: 50px;
+    border-top: 2px solid lightblue;
+}
+
+.span {
+    position: relative;
+    left: 100px;
+    display: flex;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    color: blueviolet;
+    font-family: Calibri, sans-serif;
+}
+
+.span2 {
+    color: rgb(151, 38, 38);
+    font-size: 20px;
+}
+
+.div_4 {
+    display: none;
+    color: rgb(101, 65, 11);
+    font-size: 48px;
+}
+
+.div_5 {
+    display: none;
+    width: 60%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(101, 65, 11);
+    font-size: 48px;
+}
+
+.btn_3 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    position: absolute;
+    bottom: 55px;
+    right: 100px;
+}
+
+.didiv {
+    gap: 50px;
+    flex-direction: column;
+}
